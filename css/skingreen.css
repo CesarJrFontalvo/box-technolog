@@ -30,10 +30,14 @@ a.next:hover {
     background: #1b8d46;
     border: 1px solid #eee;
     color: #fff;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
 }
 
 .noshadowbox {
     background-color: #fff;
+     border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 }
 
 .colortitlebg {
@@ -42,6 +46,7 @@ a.next:hover {
 
 .neutralbutton {
     background: #1b8d46;
+    border-radius: 7px;
 }
 
 .serviceicon {

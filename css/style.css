@@ -268,6 +268,7 @@ a.prev span, a.next span { display: none }
 .featured-projects-content h1 { font-size: 13px; line-height: 1; font-family: OpenSansRegular; font-weight: bold; }
 .featured-projects-content h1 a { padding-bottom: 10px; border-bottom: 1px solid #eee; display: block; color: #222; }
 .small { font-size: 12px }
+.imgOpa {max-height: 180PX;}
 /* FOOTER ================================================== */
 #wrapfooter { background-color: #222; margin-top: 40px; }
 #footer .title { font-size: 15px; color: #fff; border-bottom: solid #333 1px; padding-bottom: 3px; width: 90%; }
@@ -431,7 +432,7 @@ ul.accordion>li.active .content { background: white; display: block; border-left
 .insetbox:hover h5 { color: #fff; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
 .noshadowbox { padding: 0 15px 15px 15px; background-color: #F5F5F5; text-align: center; border: 1px solid #e9e9e9; border-top: 0px; }
 .noshadowbox h5 { font-size: 20px; line-height: 35px; margin-top: 0px; padding-top: 20px; font-family: OpenSansLight; }
-.bottomlink { margin-bottom: -12px; text-align: right; margin-right: -15px; }
+.bottomlink { margin-bottom: -5px; text-align: right; margin-right: -10px;  }
 /* TWITTER 
 ================================================== */
 #ticker { height: 146px; overflow-y: hidden; position: relative; }
@@ -530,7 +531,7 @@ ul.teambox { padding-left: 25px }
 .noleftmargin { padding-left: 0px }
 .grayimage { -webkit-filter: grayscale(100%) }
 .hometitlebg { background: #0E8FAB; color: #fff; margin-top: 0px; text-align: center; margin-bottom: 0px; font-family: OpenSansLight !Important; }
-.homeicone { padding: 10px 10px; color: #f8f8f8; margin-right: 4px; font-size: 45px; float: left; margin-right: 10px; }
+.homeicone { padding: 10px 10px; color: #defae8; margin-right: 4px; font-size: 45px; float: left; margin-right: 10px; }
 .neutralbutton { background: #0E8FAB; color: #fff; padding: 5px 10px; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 .neutralbutton:hover { color: #fff; background: #333; }
 .serviceicon { color: #fff; display: inline-block; width: 50px; height: 50px; border-radius: 50%; background-color: #0E8FAB; font-size: 25px; text-align: center; margin-bottom: 20px; padding-top: 12px; }
@@ -556,7 +557,7 @@ ul.teambox { padding-left: 25px }
 .stitle::first-letter { border-top: 5px solid #F37342; padding-top: 15px; }
 .wrapaction { padding-top: 10px; padding-left: 20px; border-left: #0E8FAB 2px solid; border-right: 1px solid #eee; border-top: 1px solid #eee; border-bottom: 1px solid #eee; min-height: 130px; padding-bottom: 20px; }
 .wrapactiondefault { padding-top: 10px; padding-left: 20px; border-left: #0E8FAB 2px solid; border-right: 1px solid #eee; border-top: 1px solid #eee; border-bottom: 1px solid #eee; min-height: 130px; padding-bottom: 20px; background: url(../images/separators.png) left top; }
-.actionbutton { z-index: 50; display: inline; margin: 0 auto; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; font-size: 15px; padding: 15px 20px; color: #fff; cursor: pointer; cursor: hand; background-color: #0E8FAB; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); text-shadow: 0 -1px 1px rgba(0,0,0,0.25); border-bottom: 1px solid rgba(0,0,0,0.25); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+.actionbutton { z-index: 50; display: inline; margin: 0 auto; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; font-size: 15px; padding: 15px 20px; color: #fff; cursor: pointer; cursor: hand; background-color: #0E8FAB; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); text-shadow: 0 -1px 1px rgba(0,0,0,0.25); border-bottom: 1px solid rgba(0,0,0,0.25); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; border-radius: 5px; }
 .actionbutton:hover { opacity: 0.8; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 .actionbutton a, a.actionbutton { color: #fff }
 .introtext { width: 75%; margin: 30px auto 0 auto; margin-bottom: 60px; padding: 0; font-family: OpenSansRegular,sans-serif; font-size: 24px; font-weight: normal; color: #fff; text-align: center; line-height: 30px; text-shadow: 2px 2px 15px #333; }
