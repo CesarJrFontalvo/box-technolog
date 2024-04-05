@@ -22,6 +22,7 @@ body { margin: 0 auto }
 .g1024 { margin: 0 auto; max-width: 1024px; width: 100%; }
 .g960 { margin: 0 auto; max-width: 960px; width: 100%; }
 .row { width: 100%; margin: 0 auto; }
+.nav-border{border-bottom: 1px solid #126945 ;max-height: 87px;  z-index: 9999; position: fixed; top: 0; left: 0; width: 100%;background-color: white;}
 .c1 { width: 8.33% }
 .c2 { width: 16.66% }
 .c3 { width: 25% }
@@ -189,7 +190,7 @@ th { background-color: #d9edf0; background-image: -webkit-gradient(linear,left t
 nav { float: right; display: block; margin: 0px 0px 20px 0px; position: relative; color: #666; text-transform: uppercase; font-family: OpenSansRegular; }
 nav ul { padding: 0; margin: 0; }
 nav ul ul li { height: auto }
-nav li { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; position: relative; float: left; list-style-type: none; z-index: 1; font-size: 15px; margin-left: 5px; line-height: 67px; }
+nav li { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; position: relative; float: left; list-style-type: none; z-index: 1; font-size: 15px; margin-left: 1px; line-height: 67px; }
 nav li:hover, nav li a:hover { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; background: #555; color: #fff; }
 nav li.active { background: #555}
 nav li.active a { color: #fff }
@@ -285,7 +286,7 @@ a.prev span, a.next span { display: none }
 #footer ul.social-links li { border-radius: 50% }
 .back-top-wrapper { width: 100%; position: absolute; overflow: hidden; height: 40px; display: block; }
 .back-top { bottom: 42px; right: 20px; margin-bottom: 0; display: block; position: fixed; display: scroll; display: none; }
-.back-top a { width: 35px; nowhitespace: afterproperty; nowhitespace: afterproperty; height: 35px; display: block; text-align: center; text-transform: uppercase; text-decoration: none; background: #333 url(../images/up-arrow.png) no-repeat center center; border-radius: 0px; /* transition */ -webkit-transition: 1s;-moz-transition:1s;transition:1s; opacity:0.4; border-radius: 3px;; }
+.back-top a { width: 45px; height: 45px;  nowhitespace: afterproperty; nowhitespace: afterproperty; display: block; text-align: center; text-transform: uppercase; text-decoration: none; background: #002C69 url(../images/up-arrow.png) no-repeat center center; border-radius: 0px; /* transition */ -webkit-transition: 1s;-moz-transition:1s;transition:1s; opacity:0.4; border-radius: 3px;; }
 .back-top a:hover { background-color: #333 } /* arrow icon (span tag) */
 .back-top span { width: 35px; nowhitespace: afterproperty; nowhitespace: afterproperty; height: 35px; display: block; border-radius: 10px; /* transition */ -webkit-transition: 1s;-moz-transition:1s;transition:1s; ; ; }
 /* Footer Social ---------------------- */
@@ -562,7 +563,7 @@ ul.teambox { padding-left: 25px }
 .actionbutton a, a.actionbutton { color: #fff }
 .introtext { width: 75%; margin: 30px auto 0 auto; margin-bottom: 60px; padding: 0; font-family: OpenSansRegular,sans-serif; font-size: 24px; font-weight: normal; color: #fff; text-align: center; line-height: 30px; text-shadow: 2px 2px 15px #333; }
 .introtitle { margin: 0; padding: 25px 0 0; font-family: OpenSansRegular,sans-serif; font-size: 47px; color: #FFF; text-align: center; text-shadow: 2px 2px 10px #333; }
-.boxedshadow { background: url(../images/fondo-barr.png) repeat 50% 0;  margin-top: -40px; min-height: 75px; opacity: 1.0; }
+.boxedshadow { background: url(../images/fondo-barr.png) repeat 50% 0;  margin-top: 87px; min-height: 75px; opacity: 1.0; }
 .homeicon { font-size: 25px; width: 55px !Important; margin-left: -10px; }
 .logo { margin-top: 18px; margin-left: 2%; height: 50px; width: 50px;}
 .wrapbox { background: #fff; padding-bottom: 30px; -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.1); box-shadow: 0px 0px 10px rgba(0,0,0,0.1); margin-top: -35px; }
