@@ -189,6 +189,8 @@ th { background-color: #d9edf0; background-image: -webkit-gradient(linear,left t
 /* =Media query for iPad and tablets-------------------------------------------------------------- */
 @media handheld,only screen and (max-width:768px),only screen and (max-device-width:768px) and (orientation:portrait) { 
 	body { font-size: 90% }
+    .payments{ display: none}
+    /* .nav-border{max-height: 50px; }   */
 	.row { margin-bottom: 0!important }
 	.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c1-5, .c1-8 { width: 100%; margin-right: 0; margin-left: 0; margin-bottom: 20px; }
 }
@@ -291,7 +293,7 @@ a.prev span, a.next span { display: none }
 .small { font-size: 12px }
 .imgOpa {max-height: 180PX;}
 /* FOOTER ================================================== */
-#wrapfooter { background-color: #222; margin-top: 40px; }
+#wrapfooter { background-color: #003072; margin-top: 40px; }
 #footer .title { font-size: 15px; color: #fff; border-bottom: solid #333 1px; padding-bottom: 3px; width: 90%; }
 .footerstress { border: solid #0E8FAB; border-width: 1px 0 0; clear: both; margin: -9px 0px 17px; height: 0; width: 50%; }
 #footer [class^="icon-"], #footer [class*=" icon-"] { margin-right: 7px }
@@ -300,7 +302,31 @@ a.prev span, a.next span { display: none }
 #footer li { list-style: none; float: left; padding-right: 15px; }
 #footer li a { color: #888 }
 #footer h1 { font-size: 15px; color: #ddd; margin-bottom: 20px; margin-top: 0px; -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#000),color-stop(40%,#000),color-stop(100%,rgba(0,0,0,0.5))); }
-.copyright { background-color: #111; color: #666; padding: 10px 0; font-size: 12px; border-top: 1px solid #292929; }
+.copyright { background-color: #fff; color: #666; padding: 10px 0; font-size: 12px; border-top: 1px solid #292929; height: 100px }
+.bg-custom-payments {
+    position: relative;
+    background-image: url('../images/metodos-de-pagos.png'); 
+    background-size: 1024px 110px;
+    background-position: 0 0; 
+    background-repeat: repeat;
+    animation: moveBackground 50s linear infinite;
+  }
+  @keyframes moveBackground {
+    0% {
+        background-position: 0 0; /* Posición inicial */
+      }
+      50% {
+        background-position: 200% 0; /* Mueve el fondo completamente hacia la derecha */
+      }
+      100% {
+        background-position: 0 0; /* Vuelve a la posición inicial */
+      }
+  
+  }
+  .payments{
+    position:absolute;
+    bottom: 0;
+  }
 .copyright a { color: #666 }
 .textareafooter { background: #3F3F3F !important; border: #444 1px solid !Important; color: #999 !important; }
 #footer ul.social-links li { border-radius: 50% }
@@ -398,8 +424,8 @@ ul.accordion>li.active .content { background: white; display: block; border-left
 */
 * { margin: 0; padding: 0; border: none; outline: none; }
 /*General Mosaic Styles*/
-.mosaic-block { position: relative; overflow: hidden; width: 100%; height: 190px; border: 0px; }
-.mosaic-backdrop { display: block; position: absolute; top: 0; height: 100%; width: 100%; background: #0E8FAB; }
+.mosaic-block { position: relative; overflow: hidden; width: 100%; height: 190px; border: 0px;}
+.mosaic-backdrop {border-radius: 5px; display: block; position: absolute; top: 0; height: 100%; width: 100%; background: #b9cfe8; }
 .mosaic-backdrop .details { padding: 20px; color: #fff; }
 .mosaic-backdrop .details a { color: #fff }
 .mosaic-backdrop .mosaiclink { background: #fff; color: #0E8FAB; padding: 5px 10px; font-weight: bold; font-size: 15px; }

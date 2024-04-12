@@ -5,9 +5,9 @@
 .grid {padding:0px;}
 }
 /* small screen */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 .js #responsivemenu { display: none; }
-.js .selectnav { display: block;background: #333;color: #fff; font-size:15px;border: 1px solid #333;border-radius: 0px;max-width: 100%;margin-left: -10px;}
+.js .selectnav { margin-top: -65px; display: block;background: #333;color: #fff; font-size:15px;border: 1px solid #333;border-radius: 0px;max-width: 85%; margin-left:60px }
 nav {float:none;}
 .rightareaheader {float:none;}
 .showmobile {display:block;}
